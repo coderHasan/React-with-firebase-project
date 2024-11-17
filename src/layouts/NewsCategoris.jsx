@@ -4,7 +4,6 @@ import NewsCard from "../components/NewsCard";
 
 const NewsCategoris = () => {
   const { data: news } = useLoaderData();
-  console.log(news);
 
   return (
     <div>
